@@ -1,0 +1,8 @@
+/* 页脚 */
+#footer {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+}
