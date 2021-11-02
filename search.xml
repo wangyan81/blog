@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>canvas基础画图库</title>
+      <link href="/2021/11/02/canvas%E5%9F%BA%E7%A1%80%E7%94%BB%E5%9B%BE%E5%BA%93/"/>
+      <url>/2021/11/02/canvas%E5%9F%BA%E7%A1%80%E7%94%BB%E5%9B%BE%E5%BA%93/</url>
+      
+        <content type="html"><![CDATA[<h2 id="画图库"><a href="#画图库" class="headerlink" title="画图库"></a>画图库</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 手写板</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@constructor</span></span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>width 手写板宽度</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>height 手写板高度</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>lineW 线粗</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>lineColor 线颜色</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>bgColor 手写板颜色</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>El canvas节点Dom元素</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>historyLength 历史记录条数</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>dataUrl 获取base64编码</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>mime 文件类型</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>dataURLtoBlob 获取blob文件</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>dataUrl base64编码</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>filename 文件名</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>dataURLtoFile 获取file文件</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>dataUrl base64编码</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>filename 文件名</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>downLoadUrl 获取下载地址</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>dataUrl base64编码</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>filename 文件名</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>save 保存图片</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>mime 文件类型</span></span><br><span class="line"><span class="comment"> *      <span class="doctag">@param </span>filename 文件名</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>clear 清空canvas区</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>getHistory 获取操作记录</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>upStep 上一步</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>nextStep 下一步</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@method </span>clearHistory 清空历史记录</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure><p>实现了鼠标画图，自定义颜色，历史记录，上一步，下一步等功能</p><p>如图所示：</p><img src="/2021/11/02/canvas%E5%9F%BA%E7%A1%80%E7%94%BB%E5%9B%BE%E5%BA%93/1635832336154.jpg" class=""> <div class="note danger flat"><p>没有写样式，只是为了展示基本功能</p></div><blockquote><p>地址：<a href="http://gitlab.wangblogs.top/wang/drawname">http://gitlab.wangblogs.top/wang/drawname</a></p><p>网站可能会很卡。。多等一会，请求超时的话刷新一下。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Javascript </category>
+          
+          <category> canvas </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> canvas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JS算法基础-栈</title>
       <link href="/2021/10/28/JS%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80-%E6%A0%88/"/>
       <url>/2021/10/28/JS%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80-%E6%A0%88/</url>
